@@ -1,0 +1,124 @@
+import { BRAND, CONTACT_CARDS } from "../data/products"
+
+function Contact() {
+  return (
+    <section className="w-full py-space-xl bg-surface" id="contact">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col gap-space-xl">
+        <div className="flex flex-col gap-space-xs text-center max-w-2xl mx-auto">
+          <span className="font-label-md text-label-md text-secondary uppercase tracking-widest">
+            Connect With Us
+          </span>
+          <h2 className="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-primary">
+            Craving Something Delicious?
+          </h2>
+          <p className="font-body-md text-body-md text-on-surface-variant">
+            Get in touch with SDK Enterprise to enquire about products, flavours, custom hampers, and real-time parlour
+            availability.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+          <div className="lg:col-span-6 flex flex-col gap-space-md">
+            <div className="p-space-lg rounded-3xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+              <h3 className="font-headline-sm text-headline-sm text-primary">
+                Direct Ordering &amp; Store Information
+              </h3>
+              <div className="flex flex-col gap-space-sm">
+                {CONTACT_CARDS.map((card) => (
+                  <div
+                    key={card.label}
+                    className="flex items-center gap-space-md p-space-sm rounded-2xl bg-surface-container-low"
+                  >
+                    <div className={`w-12 h-12 rounded-xl ${card.iconBg} flex items-center justify-center shrink-0`}>
+                      <span className="material-symbols-outlined text-[24px]">{card.icon}</span>
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="font-label-sm text-label-sm text-on-surface-variant uppercase">
+                        {card.label}
+                      </span>
+                      {card.link ? (
+                        <a
+                          className={`font-title-md text-title-md ${card.valueColor} hover:underline`}
+                          href={card.link}
+                          rel={card.link.startsWith("https") ? "noopener noreferrer" : undefined}
+                          target={card.link.startsWith("https") ? "_blank" : undefined}
+                        >
+                          {card.value}
+                        </a>
+                      ) : (
+                        <span className={`font-title-md text-title-md ${card.valueColor}`}>{card.value}</span>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="p-space-md rounded-2xl bg-surface-container flex items-center gap-space-xs text-on-surface-variant">
+                <span className="material-symbols-outlined text-secondary text-[20px] shrink-0">info</span>
+                <p className="font-body-sm text-body-sm">
+                  We will be delighted to check real-time stock and pack your fresh treats immediately!
+                </p>
+              </div>
+
+              <a
+                className="w-full py-space-md rounded-full bg-secondary-container hover:bg-secondary hover:text-on-secondary text-on-surface font-label-lg text-label-lg text-center block transition-all shadow-md"
+                href="https://wa.me/917871110615?text=Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20your%20products."
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Order on WhatsApp ({BRAND.phone})
+              </a>
+            </div>
+          </div>
+
+          <div className="lg:col-span-6 flex flex-col justify-between">
+            <div className="rounded-3xl bg-surface-container-lowest p-space-lg shadow-sm h-full flex flex-col">
+              <div className="flex items-center justify-between pb-space-sm">
+                <div>
+                  <h3 className="font-headline-sm text-headline-sm text-primary">Visit Our Parlour</h3>
+                  <p className="font-body-sm text-body-sm text-on-surface-variant">Lawspet, Puducherry</p>
+                </div>
+                <div className="px-space-md py-space-xs rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+                  Open Daily
+                </div>
+              </div>
+
+              <div
+                className="w-full h-80 rounded-2xl bg-cover bg-center overflow-hidden relative shadow-inner my-space-sm"
+                data-location="Lawspet, Puducherry, India"
+                style={{ backgroundImage: `url('${BRAND.mapImage}')` }}
+              >
+                <div className="absolute inset-0 bg-primary/20 backdrop-blur-[1px] flex flex-col items-center justify-center p-space-md text-center">
+                  <div className="w-12 h-12 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-lg animate-bounce">
+                    <span className="material-symbols-outlined text-[28px]">store</span>
+                  </div>
+                  <div className="mt-space-sm bg-surface/90 px-space-md py-space-xs rounded-xl shadow-md">
+                    <p className="font-title-md text-title-md text-primary font-bold">{BRAND.name}</p>
+                    <p className="font-label-sm text-label-sm text-on-surface-variant">{BRAND.tagline} · Lawspet</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-space-sm flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+                <span className="flex items-center gap-space-xs">
+                  <span className="material-symbols-outlined text-secondary text-[18px]">near_me</span>
+                  <span>Convenient roadside access in Lawspet</span>
+                </span>
+                <a
+                  className="font-label-md text-label-md text-primary hover:underline"
+                  href="https://wa.me/917871110615?text=Hello%20SDK%20Enterprise,%20please%20send%20me%20your%20exact%20store%20location%20link."
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Get Directions
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Contact

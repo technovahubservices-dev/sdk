@@ -1,0 +1,487 @@
+﻿export const BRAND = {
+  name: "SDK Enterprise",
+  tagline: "Amul Exclusive Parlour Â· Lawspet, Puducherry",
+  phone: "78711 10615",
+  phoneRaw: "7871110615",
+  phoneInternational: "917871110615",
+  email: "",
+  location: "Lawspet, Puducherry - 605008",
+  instagram: "https://www.instagram.com/sdk_arcotmanimark_amul_py/",
+  instagramHandle: "@sdk_arcotmanimark_amul_py",
+  hours: "Open Daily: 9:00 AM - 10:00 PM",
+  logoSrc:
+    "/images/external/image-001.png",
+  heroImage:
+    "/images/Premium Amul Festive Gift Hamper.png",
+  aboutImage:
+    "/images/external/image-003.jpg",
+  mapImage:
+    "/images/external/image-004.png",
+}
+
+export const HERO_BADGES = [
+  { icon: "ac_unit", color: "text-primary", label: "Cold-Chain Assured" },
+  { icon: "award_star", color: "text-secondary", label: "Mani Mark Recipe" },
+  { icon: "featured_seasonal_and_gifts", color: "text-primary", label: "Custom Hampers" },
+]
+
+export const HERO_FLOAT_BADGES = [
+  { icon: "icecream", bg: "bg-primary-container", color: "text-on-primary", title: "100% Genuine Amul", subtitle: "Exclusive Parlour" },
+  { icon: "bakery_dining", bg: "bg-secondary-container", color: "text-on-surface", title: "Arcot Mani Mark", subtitle: "Heritage Crisps & Sweets" },
+]
+
+export const CATEGORY_CARDS = [
+  {
+    id: "amul",
+    badge: "Cold-Chain Verified",
+    badgeColor: "text-primary",
+    badgeIcon: "kitchen",
+    title: "Amul Dairy & Ice Creams",
+    description:
+      "Fresh milk, pure butter, cow ghee, cheeses, cookies, dairy milkshakes, EPIC bars, and 1-litre family tubs maintained at optimal temperature.",
+    image:
+      "/images/external/image-005.jpg",
+    alt:
+      "Amul dairy products lineup including butter carton, pure ghee jar, paneer block, cheese slices, chocolate bars, and fresh milk packs against dairy blue background",
+    linkHref: "#amul-collection",
+    linkText: "Explore Amul Delights",
+    linkBg: "hover:bg-primary-container hover:text-on-primary text-primary",
+  },
+  {
+    id: "mani-mark",
+    badge: "Authentic South Indian",
+    badgeColor: "text-secondary",
+    badgeIcon: "bakery_dining",
+    title: "Mani Mark Sweets & Snacks",
+    description:
+      "Authentic ghee sweets, crunchy handcrafted murukku, healthy millet namkeen, specialty cookies, and festive savoury bites made from age-old family recipes.",
+    image:
+      "/images/external/image-006.jpg",
+    alt:
+      "Traditional Arcot Mani Mark snacks featuring golden crispy spiral murukku, mixture, crunchy thattai, rich makkan peda sweets, and cookies in warm festive lighting",
+    linkHref:
+      "https://wa.me/917871110615?text=Hello%20SDK%20Enterprise,%20I%20want%20to%20know%20more%20about%20Arcot%20Mani%20Mark%20snacks%20and%20sweets.",
+    linkText: "Enquire Snacks",
+    external: true,
+    linkBg: "hover:bg-secondary-container hover:text-on-surface text-secondary",
+  },
+  {
+    id: "bouquets",
+    badge: "Signature Innovation",
+    badgeColor: "text-secondary",
+    badgeIcon: "local_florist",
+    title: "Healthy Snack Bouquets",
+    description:
+      "The iconic Write & Bite Bouquet with keepsake pencils, coconut burfi, healthy peanut chikki, millet burfi, and traditional Kamarkat treats wrapped decoratively.",
+    image:
+      "/images/external/image-007.jpg",
+    alt:
+      "A festive handcrafted Write and Bite sweet bouquet wrapped in teal patterned paper and burlap with keepsake pencils, coconut burfi, peanut chikki, and yellow ribbon",
+    linkHref: "#hampers",
+    linkText: "View Bouquets",
+    linkBg: "hover:bg-secondary-container hover:text-on-surface text-secondary",
+  },
+  {
+    id: "gifts",
+    badge: "Celebrations & Events",
+    badgeColor: "text-primary",
+    badgeIcon: "card_giftcard",
+    title: "Gifts & Corporate Hampers",
+    description:
+      "Artisan chocolate gift boxes, birthday bundles, wedding welcome hampers, corporate celebration gifts, and bespoke festive return gifts made to order.",
+    image:
+      "/images/external/image-008.jpg",
+    alt:
+      "Opulent Diwali and wedding gift hamper box filled with assorted Amul chocolates, traditional sweets, dry fruits, and wrapped with rich golden and royal blue ribbons",
+    linkHref: "#hampers",
+    linkText: "Customise Hampers",
+    linkBg: "hover:bg-primary-container hover:text-on-primary text-primary",
+  },
+]
+
+export const AMUL_TABS = [
+  { id: "epic", label: "Amul EPIC Ice Creams", active: true },
+  { id: "tubs", label: "1-Litre Family Packs", active: false },
+  { id: "chocolates", label: "Premium Chocolates", active: false },
+]
+
+export const AMUL_PRODUCTS = {
+  epic: [
+    {
+      id: "epic-choco-almond",
+      badge: "EPIC Bar",
+      badgeColor: "bg-primary text-on-primary",
+      image:
+        "/images/external/image-009.jpg",
+      alt:
+        "Amul EPIC Choco Almond ice cream stick bar with rich Belgian chocolate coating and toasted crunchy almond nuts on soft cream background",
+      name: "Choco Almond",
+      description:
+        "Rich dairy ice cream layered with crunchy roasted almonds wrapped in silky dark chocolate.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20EPIC%20Choco%20Almond.",
+      enquire: true,
+    },
+    {
+      id: "epic-strawberry",
+      badge: "EPIC Bar",
+      badgeColor: "bg-primary text-on-primary",
+      image:
+        "/images/external/image-010.jpg",
+      alt:
+        "Amul EPIC Strawberry Twist ice cream bar swirled with strawberry sauce coated in crisp milk chocolate on dairy white studio backdrop",
+      name: "Strawberry Twist",
+      description:
+        "Real strawberry ripples folded into creamy milk base, sealed in luscious crisp chocolate shell.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20EPIC%20Strawberry%20Twist.",
+      enquire: true,
+    },
+    {
+      id: "epic-choco-truffle",
+      badge: "EPIC Bar",
+      badgeColor: "bg-primary text-on-primary",
+      image:
+        "/images/external/image-011.jpg",
+      alt:
+        "Amul EPIC Choco Truffle ice cream bar dripping with molten cocoa truffle fudge and thick milk chocolate layer",
+      name: "Choco Truffle",
+      description:
+        "Intense chocolate ganache core enrobed in decadent milk chocolate for serious cocoa lovers.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20EPIC%20Choco%20Truffle.",
+      enquire: true,
+    },
+    {
+      id: "epic-sweet-heart",
+      badge: "Special Edition",
+      badgeColor: "bg-secondary text-on-secondary",
+      image:
+        "/images/external/image-012.jpg",
+      alt:
+        "Amul Sweet Heart heart shaped premium ice cream treat with raspberry syrup and creamy white and dark chocolate finish",
+      name: "Sweet Heart",
+      description:
+        "Signature heart-shaped frozen indulgence bursting with sweet vanilla cream and chocolate notes.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Sweet%20Heart.",
+      enquire: true,
+    },
+  ],
+  tubs: [
+    {
+      id: "tub-choco-crackle",
+      badge: "1-Litre Tub",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-013.jpg",
+      alt:
+        "Amul 1 Litre Choco Crackle Ice Cream tub showing rich chocolate ice cream scoop with crunchy chocolate biscuit pieces",
+      name: "Choco Crackle",
+      description:
+        "Loaded with crispy chocolate crackles inside smooth cocoa dairy ice cream.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Choco%20Crackle%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-shahi-kulfi",
+      badge: "Royal Heritage",
+      badgeColor: "text-secondary",
+      image:
+        "/images/external/image-014.jpg",
+      alt:
+        "Amul 1 Litre Shahi Kulfi Ice Cream tub with saffron cardamom infused rabri scoops and chopped pistachios",
+      name: "Shahi Kulfi",
+      description:
+        "Traditional royal recipe made with slow-simmered rabri, green cardamom, and pistachios.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Shahi%20Kulfi%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-rajbhog",
+      badge: "Festive Classic",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-015.jpg",
+      alt:
+        "Amul 1 Litre Rajbhog Ice Cream tub with golden saffron ice cream and whole cashew and almond nuts",
+      name: "Rajbhog",
+      description:
+        "Enriched with fragrant saffron, real honey, and generous dry fruit slivers.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Rajbhog%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-pan-nawabi",
+      badge: "Digestive Delight",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-016.jpg",
+      alt:
+        "Amul 1 Litre Pan Nawabi Ice Cream tub with refreshing gulkand betel leaf flavour and dry fruits",
+      name: "Pan Nawabi",
+      description:
+        "Authentic Meetha Paan essence infused with fragrant gulkand and fennel notes.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Pan%20Nawabi%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-falooda",
+      badge: "Rose Special",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-017.jpg",
+      alt:
+        "Amul 1 Litre Falooda ice cream tub with rose flavour basil seeds and vermicelli swirls",
+      name: "Falooda",
+      description:
+        "Aromatic rose milk swirl with authentic falooda bits and sabja seeds.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Falooda%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-roasted-almond",
+      badge: "Nutty Crunch",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-018.jpg",
+      alt:
+        "Amul 1 Litre Roasted Almond Ice cream tub showing nutty butter cream base and golden toasted almond nuts",
+      name: "Roasted Almond",
+      description:
+        "Slow roasted California badam flakes churned in pure cream dairy ice cream.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Roasted%20Almond%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-butterscotch",
+      badge: "All Time Favourite",
+      badgeColor: "text-secondary",
+      image:
+        "/images/external/image-019.jpg",
+      alt:
+        "Amul 1 Litre Butterscotch Ice Cream tub with golden caramelized praline nougat chunks and rich yellow cream",
+      name: "Butterscotch",
+      description:
+        "Caramelized buttery sweetness with an abundant dose of crunchy praline bits.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Butterscotch%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-vanilla",
+      badge: "Pure Real Milk",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-020.jpg",
+      alt:
+        "Amul 1 Litre Real Milk Vanilla Ice Cream tub showing immaculate velvety white scoops on warm butter wood background",
+      name: "Vanilla",
+      description:
+        "The timeless classic made with 100% genuine Amul dairy cream and pure vanilla.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Vanilla%201L.",
+      enquire: false,
+    },
+  ],
+  chocolates: [
+    {
+      id: "choc-milk-chocolate",
+      badge: "Smooth Classic",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-021.jpg",
+      alt:
+        "Amul Milk Chocolate bar slab broken to show smooth creamy cocoa texture against cocoa beans",
+      name: "Milk Chocolate",
+      description:
+        "Creamy milk chocolate prepared with finest grade cocoa butter and whole milk.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Milk%20Chocolate.",
+      enquire: true,
+    },
+    {
+      id: "choc-white-lemon",
+      badge: "Citrus Fusion",
+      badgeColor: "text-secondary",
+      image:
+        "/images/external/image-022.jpg",
+      alt:
+        "Amul White Lemon chocolate bar packaging with refreshing citrus zest and rich white cocoa butter chunks",
+      name: "White Lemon",
+      description:
+        "Velvety white chocolate infused with subtle natural lemon notes for an exotic tang.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20White%20Lemon%20chocolate.",
+      enquire: true,
+    },
+    {
+      id: "choc-mystic-mocha",
+      badge: "Coffee Infusion",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-023.jpg",
+      alt:
+        "Amul Mystic Mocha chocolate bar with dark roasted espresso coffee aroma and rich dark chocolate bars",
+      name: "Mystic Mocha",
+      description:
+        "A harmony of dark chocolate and aromatic roasted coffee beans for coffee aficionados.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Mystic%20Mocha%20chocolate.",
+      enquire: true,
+    },
+    {
+      id: "choc-bitter-90",
+      badge: "Intense 90% Cocoa",
+      badgeColor: "text-primary",
+      image:
+        "/images/external/image-024.jpg",
+      alt:
+        "Amul Bitter 90 percent dark chocolate bar showing deep dark cocoa sheen on raw rustic slate platter",
+      name: "Bitter 90%",
+      description:
+        "Single-origin style uncompromising dark chocolate crafted for true dark chocolate purists.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Bitter%2090%25%20chocolate.",
+      enquire: true,
+    },
+  ],
+}
+
+export const HAMPER_SPOTLIGHT = {
+  id: "write-bite-bouquet",
+  badge: "Signature Creation",
+  badgeIcon: "star",
+  badgeColor: "bg-secondary text-on-secondary",
+  image:
+    "/images/external/image-025.jpg",
+  alt:
+    "Handmade Write and Bite sweet bouquet created by SDK Enterprise with vibrant craft pencil, layered coconut burfi, crunchy peanut chikki blocks wrapped with golden ribbons on vintage wooden table",
+  title: "Write & Bite Sweet Bouquet",
+  description:
+    "Our most beloved novelty gift! Combines decorative keepsake pencils with traditional Arcot Mani Mark delicacies including fresh coconut burfi, crunchy peanut chikki, and fine burfi tied with artisanal ribbons.",
+  features: [
+    "Artisan Keepsake Pencil Included",
+    "Pure Jaggery & Coconut Burfi",
+    "Perfect for Birthdays & School Milestones",
+  ],
+  whatsappText: "Hello%20SDK%20Enterprise,%20I%20am%20interested%20in%20ordering%20the%20Write%20%26%20Bite%20Sweet%20Bouquet.",
+}
+
+export const HAMPER_SIDE_CARDS = [
+  {
+    id: "healthy-burfi",
+    title: "Healthy Burfi Bouquet",
+    description:
+      "Nutrient-rich peanut, fresh coconut, roasted millet burfis, and heritage Kamarkat.",
+    image:
+      "/images/external/image-026.jpg",
+    alt:
+      "Assorted South Indian burfi bouquet with millet burfi peanut chikki and traditional Kamarkat sweets",
+    whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20the%20Healthy%20Burfi%20Bouquet.",
+  },
+  {
+    id: "premium-snack",
+    title: "Premium Snack Hampers",
+    description:
+      "Authentic Arcot Mani Mark crunchy namkeen, savory bites, and festive treats in gift baskets.",
+    image:
+      "/images/external/image-027.jpg",
+    alt:
+      "Traditional Arcot Mani Mark snack hamper basket packed with murukku packets thattai and savoury mixture",
+    whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Premium%20Snack%20Hampers.",
+  },
+  {
+    id: "chocolate-gift",
+    title: "Chocolate Gift Boxes",
+    description:
+      "Curated Amul premium chocolate bars and artisan assortments packed in royal blue gift boxes.",
+    image:
+      "/images/external/image-028.jpg",
+    alt:
+      "Deluxe Amul chocolate gift box featuring an array of single origin dark chocolates and cocoa bars wrapped in gold",
+    whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Chocolate%20Gift%20Boxes.",
+  },
+]
+
+export const GALLERY_TILES = [
+  { id: "murukku", label: "Crispy Mani Mark Murukku", image: "/images/external/image-029.jpg", alt: "Close up photograph of traditional South Indian Murukku crisps stacked in artisan brass bowl" },
+  { id: "chilled", label: "Chilled Dairy Parlour", image: "/images/external/image-030.jpg", alt: "Amul 1 Litre Ice cream containers stacked neatly in refrigerated store showcase at SDK Enterprise" },
+  { id: "write-bite", label: "Write & Bite Bouquets", image: "/images/external/image-031.jpg", alt: "Handcrafted festive sweet bouquet with keepsake pencil and peanut chikki wrapped in designer paper" },
+  { id: "dark-chocs", label: "Amul Dark Chocolates", image: "/images/external/image-032.jpg", alt: "Selection of Amul premium dark chocolates displayed elegantly in silk gift tray with nuts" },
+  { id: "ghee-sweets", label: "Arcot Pure Ghee Sweets", image: "/images/external/image-033.jpg", alt: "Traditional Arcot Peda sweets made with pure ghee on decorative silver plate with saffron" },
+  { id: "celebration-gifts", label: "Custom Celebration Gifts", image: "/images/external/image-008.jpg", alt: "Deluxe celebratory gift hamper basket tied with royal blue and golden ribbon bows ready for delivery" },
+]
+
+export const ABOUT_FEATURES = [
+  {
+    icon: "verified",
+    iconBg: "bg-primary/10 text-primary",
+    title: "Amul Parlour Quality",
+    description: "Certified cold-chain storage for pure dairy purity and fresh taste.",
+  },
+  {
+    icon: "bakery_dining",
+    iconBg: "bg-secondary/10 text-secondary",
+    title: "Arcot Mani Mark Tradition",
+    description: "Authentic traditional recipes, pure ghee sweets, and crunchy namkeens.",
+  },
+  {
+    icon: "featured_seasonal_and_gifts",
+    iconBg: "bg-secondary-container/20 text-secondary",
+    title: "Heartcrafted Gifting",
+    description: "Signature Write & Bite and custom burfi bouquets for any event.",
+  },
+  {
+    icon: "storefront",
+    iconBg: "bg-primary-container/20 text-primary",
+    title: "Lawspet Convenience",
+    description: "Quick local pickup and smooth WhatsApp ordering direct in Puducherry.",
+  },
+]
+
+export const CONTACT_CARDS = [
+  {
+    icon: "call",
+    iconBg: "bg-primary text-on-primary",
+    label: "Call Us Directly",
+    value: "78711 10615",
+    link: "tel:7871110615",
+    valueColor: "text-primary",
+  },
+  {
+    icon: "chat",
+    iconBg: "bg-secondary-container text-on-surface",
+    label: "Instant WhatsApp Enquiry",
+    value: "Chat with SDK Enterprise",
+    link: "https://wa.me/917871110615?text=Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20your%20products.",
+    valueColor: "text-secondary",
+  },
+  {
+    icon: "location_on",
+    iconBg: "bg-surface-container-highest text-on-surface",
+    label: "Store Location",
+    value: "Lawspet, Puducherry, India",
+    link: null,
+    valueColor: "text-on-surface",
+  },
+  {
+    icon: "photo_camera",
+    iconBg: "bg-surface-container-highest text-on-surface",
+    label: "Official Instagram",
+    value: "@sdk_arcotmanimark_amul_py",
+    link: "https://www.instagram.com/sdk_arcotmanimark_amul_py/",
+    valueColor: "text-primary",
+  },
+]
+
+export const NAV_LINKS = [
+  { label: "Home", href: "#hero" },
+  { label: "Products", href: "#categories" },
+  { label: "Amul Favourites", href: "#amul-collection" },
+  { label: "Gift Hampers", href: "#hampers" },
+  { label: "Gallery", href: "#gallery" },
+  { label: "About Us", href: "#about" },
+  { label: "Contact", href: "#contact" },
+]
+
+export const FOOTER_CATEGORIES = [
+  { label: "Amul Ice Creams & Dairy", href: "#categories" },
+  { label: "Arcot Mani Mark Sweets", href: "#categories" },
+  { label: "Traditional Murukku & Savouries", href: "#categories" },
+  { label: "Festival & Wedding Hampers", href: "#hampers" },
+  { label: "Gourmet Chocolates & Beverages", href: "#amul-collection" },
+]
+
+
+

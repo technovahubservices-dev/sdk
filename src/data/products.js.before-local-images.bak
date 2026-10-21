@@ -1,0 +1,484 @@
+export const BRAND = {
+  name: "SDK Enterprise",
+  tagline: "Amul Exclusive Parlour · Lawspet, Puducherry",
+  phone: "78711 10615",
+  phoneRaw: "7871110615",
+  phoneInternational: "917871110615",
+  email: "",
+  location: "Lawspet, Puducherry - 605008",
+  instagram: "https://www.instagram.com/sdk_arcotmanimark_amul_py/",
+  instagramHandle: "@sdk_arcotmanimark_amul_py",
+  hours: "Open Daily: 9:00 AM - 10:00 PM",
+  logoSrc:
+    "https://lh3.googleusercontent.com/aida/AEtjO1V-hQbDzM67qoV70RuvN6lOp2zjJY_8T3Uvemx--OXWHFrbkLXlu4RG0RZnNhO4tfSEI9uo0b_xkOniezC_yCjqRn4A95DxChl-zpLfACzg1TsZQuodz69IpPB3Epy4oeCBbaSRBLlq2z_5Yh4NGOmPw9Eb6xiFwYlWhDeW7iQW-EhJGMXj7FVHxZ18taTJ0KN7RuyJtHcF8EAHvfuiWYVv0BpzP3lTvshCBEJg7kwIiAzrfzMCS-5pnQxv",
+  heroImage:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuA-S81dlCDtrvgGMrN2CLHd3trj9TNq-gSfYxnMhe-fwmVl3Kb9Zq7kY4nTbVRciydqS0kLIQSeRgxh3g-ARICfFFAz16wE5bk3fwaCn_rLMUs4O43SZjgp4Lik6BpdtN1JcnCkjCXTShTF4uaoVpxg7pq2joGBr7K6j7SxW0lDyvJzu5_-90zo0mxTW38TeCbPjWRY8fbsQCbPWmJAKMlVnnnZvPs-MYGUXPHEXoZVhJx0g5v80gamWg",
+  aboutImage:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuCK82dnA9TdBe4u9agNa0DV1GDqSto58-jT7m-WOX_xhAZKxs6s9u1YVRJMgWVVRf0av93qwU1LoxsnqKFSP9-jVSoDjDP7muwdkZhsbpd9qVxRSTlqVtfR7czS3M4IspJ-u3s-PtD5S7Wa03PPPgxx75RlxUEfL-jW9dapFyBhiBEtjTHcMTxJ-n94KlNivMIQCj4Ea9Ki8Ue_hD1Af6mzwJcCW84IyDejur0u19XFgB4rwEAM6VDsLw",
+  mapImage:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBVdZzG8sbO3UVrLcC5hFYxYyvTd2rNlzJdZB8827QTM57c--ckYyK9gXnOrelGfS9rjcjtigWkqNf29Pxw5aRo9dAwwlxNeUL4blMvSXjIctakMGTZ_q6023Y3KC8d713LNV2uvQ_XbI-Z0wYJu_G7t3C4bkJEpOTj4AeIeGdipoDuPQXaHTYcrH89uY25PwtsuxF9tVLcQCC3OOADQxDpSo6_2iZ9Gg1hBM-xRJaTprtIidi-04bzyg",
+}
+
+export const HERO_BADGES = [
+  { icon: "ac_unit", color: "text-primary", label: "Cold-Chain Assured" },
+  { icon: "award_star", color: "text-secondary", label: "Mani Mark Recipe" },
+  { icon: "featured_seasonal_and_gifts", color: "text-primary", label: "Custom Hampers" },
+]
+
+export const HERO_FLOAT_BADGES = [
+  { icon: "icecream", bg: "bg-primary-container", color: "text-on-primary", title: "100% Genuine Amul", subtitle: "Exclusive Parlour" },
+  { icon: "bakery_dining", bg: "bg-secondary-container", color: "text-on-surface", title: "Arcot Mani Mark", subtitle: "Heritage Crisps & Sweets" },
+]
+
+export const CATEGORY_CARDS = [
+  {
+    id: "amul",
+    badge: "Cold-Chain Verified",
+    badgeColor: "text-primary",
+    badgeIcon: "kitchen",
+    title: "Amul Dairy & Ice Creams",
+    description:
+      "Fresh milk, pure butter, cow ghee, cheeses, cookies, dairy milkshakes, EPIC bars, and 1-litre family tubs maintained at optimal temperature.",
+    image:
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCLZ5DotD_aD7s1c5p8i7DgHKsAAa9C-RZpvEMonHyd_tMJqbd_Ck24teeVZG1seNqHhZiG9w-LIxPwDM_9zSvRX_zRKoyv2e9KTTIbvZ7p1pspj9fJUNf1W8wLDGiXB007pB4CRogaeyymCm6VqGSAYwNinb5hg3in4sKuqmTJ61DTghiN-twsre3AIewUlXpWV8X-msnFsUJ5WskujWcVXCi9dN04QQ8kWDGKUB2IDECMSRB07yZ63Q",
+    alt:
+      "Amul dairy products lineup including butter carton, pure ghee jar, paneer block, cheese slices, chocolate bars, and fresh milk packs against dairy blue background",
+    linkHref: "#amul-collection",
+    linkText: "Explore Amul Delights",
+    linkBg: "hover:bg-primary-container hover:text-on-primary text-primary",
+  },
+  {
+    id: "mani-mark",
+    badge: "Authentic South Indian",
+    badgeColor: "text-secondary",
+    badgeIcon: "bakery_dining",
+    title: "Mani Mark Sweets & Snacks",
+    description:
+      "Authentic ghee sweets, crunchy handcrafted murukku, healthy millet namkeen, specialty cookies, and festive savoury bites made from age-old family recipes.",
+    image:
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDS-Bc9TF6nEc-G_q3uQBnY8EuzDFxI1dvwnk3urvbSRl-_lnwuu7NQCx0vdohMddFZUEGaVoiCuxtwZMWu6Bubz6AbC7lR84YfBIoCIiucF0bGvNGN6YOhvcW8lDYe-XaNbEcJQGAveKidAGinT_acTdmWxoGdeo7_0LLweQDvMDACUzVM2bW-C07hOikIgb5d8gCckCa_m0pzmhf8HpfN_ED9S63ZoNHHoWrpwB80GnogI4An6MER5g",
+    alt:
+      "Traditional Arcot Mani Mark snacks featuring golden crispy spiral murukku, mixture, crunchy thattai, rich makkan peda sweets, and cookies in warm festive lighting",
+    linkHref:
+      "https://wa.me/917871110615?text=Hello%20SDK%20Enterprise,%20I%20want%20to%20know%20more%20about%20Arcot%20Mani%20Mark%20snacks%20and%20sweets.",
+    linkText: "Enquire Snacks",
+    external: true,
+    linkBg: "hover:bg-secondary-container hover:text-on-surface text-secondary",
+  },
+  {
+    id: "bouquets",
+    badge: "Signature Innovation",
+    badgeColor: "text-secondary",
+    badgeIcon: "local_florist",
+    title: "Healthy Snack Bouquets",
+    description:
+      "The iconic Write & Bite Bouquet with keepsake pencils, coconut burfi, healthy peanut chikki, millet burfi, and traditional Kamarkat treats wrapped decoratively.",
+    image:
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBDri9R_yYmxDerI2Do5lERD4mFta4ZJWhHSyXQIDoXEbF0ydsuTXYAv7OMHOhZxXkmiFuYMfiCuu6FH3-K6a8KnQ8Bx8YbDo7WcfYNY4pbksit_8tD8J-V1MzjvRp2tw7ccTsW25v6HDnWt9AE77_NE6YId7WNeZ5Cm-trlDz2S-yOVPsJdGrP50ZkDfkwP46VttZtRDcFkj0h5VrDT2zcN5sFNZnYBYejS9P-kqjIsx7x5TX_falUDg",
+    alt:
+      "A festive handcrafted Write and Bite sweet bouquet wrapped in teal patterned paper and burlap with keepsake pencils, coconut burfi, peanut chikki, and yellow ribbon",
+    linkHref: "#hampers",
+    linkText: "View Bouquets",
+    linkBg: "hover:bg-secondary-container hover:text-on-surface text-secondary",
+  },
+  {
+    id: "gifts",
+    badge: "Celebrations & Events",
+    badgeColor: "text-primary",
+    badgeIcon: "card_giftcard",
+    title: "Gifts & Corporate Hampers",
+    description:
+      "Artisan chocolate gift boxes, birthday bundles, wedding welcome hampers, corporate celebration gifts, and bespoke festive return gifts made to order.",
+    image:
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDo_eR7dQ0ctzKrWQHmYGOkXI_NN5otnTtzykudYVy6KsgYmLMA5uSgRY5QpmHlhl9YWH0NkdSLKSltNs-QjLh0RCe7PTooZ-IAJuPCEoDX_1Gn_Ru1z4bjq6uaBjl1hvLZwZV-7NVnPH31Myo-kkBgkaZNh0rtE6hChYSGZeMX4Ti2SUi8_Mphf6roEnDN_oLVmO54u2kw-zOYrYd44EJstsGtTay5iKiGjJROd1xrAiyZtPTOWHWw3g",
+    alt:
+      "Opulent Diwali and wedding gift hamper box filled with assorted Amul chocolates, traditional sweets, dry fruits, and wrapped with rich golden and royal blue ribbons",
+    linkHref: "#hampers",
+    linkText: "Customise Hampers",
+    linkBg: "hover:bg-primary-container hover:text-on-primary text-primary",
+  },
+]
+
+export const AMUL_TABS = [
+  { id: "epic", label: "Amul EPIC Ice Creams", active: true },
+  { id: "tubs", label: "1-Litre Family Packs", active: false },
+  { id: "chocolates", label: "Premium Chocolates", active: false },
+]
+
+export const AMUL_PRODUCTS = {
+  epic: [
+    {
+      id: "epic-choco-almond",
+      badge: "EPIC Bar",
+      badgeColor: "bg-primary text-on-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD8h8-EobbflU3EyRuAdgcREwHvy-iS1eBopYGKwC2r-cD7kR9gKFra2XF0i-XxTmiv8HvNdd3RvwJlrG-55Ug2xuouMyuSTYbJLH8yDRIW3tH-o9jpDmyZSaDgg0aTPWUlM0gQQfaLaXK2yOj9aj_cfjHwtcadkney15odtykd-prdVATXIdVy9_-kbeUz5FjOMv0h5lKYwqR4qRMrI7WtL8DaTRL7Xkm6EqsNPsZ9RU7wNVylpZrAAw",
+      alt:
+        "Amul EPIC Choco Almond ice cream stick bar with rich Belgian chocolate coating and toasted crunchy almond nuts on soft cream background",
+      name: "Choco Almond",
+      description:
+        "Rich dairy ice cream layered with crunchy roasted almonds wrapped in silky dark chocolate.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20EPIC%20Choco%20Almond.",
+      enquire: true,
+    },
+    {
+      id: "epic-strawberry",
+      badge: "EPIC Bar",
+      badgeColor: "bg-primary text-on-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCdegFBtOutrdDNcDMEDnIN23PwRzrx-13xzxIa1aaFoacTT6YTv2nNusb2FqmsA5D2aHRsphKLbwWhJWwDU3ebhniHhI0c2PzBkvk5Oc6DIDWkYMwLVeqj0pprZ2gSXO6ciqVQ1AUv-Ba8Hkqde31ar2eJNhVzkLNaoqIRWEYrD493PH99zVAkLGR7nobCjLaNWVz-Fr134etPpmD1RTzC3MuDXF1kUC46r8Qjo54iZrvnqKEXPX_ikw",
+      alt:
+        "Amul EPIC Strawberry Twist ice cream bar swirled with strawberry sauce coated in crisp milk chocolate on dairy white studio backdrop",
+      name: "Strawberry Twist",
+      description:
+        "Real strawberry ripples folded into creamy milk base, sealed in luscious crisp chocolate shell.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20EPIC%20Strawberry%20Twist.",
+      enquire: true,
+    },
+    {
+      id: "epic-choco-truffle",
+      badge: "EPIC Bar",
+      badgeColor: "bg-primary text-on-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBr-O1ZJffOFCzMFSjyMrovAFgHqHR5d7v6pevwHOkKuwp9QSzuOw3GTNLaZv6UeX2tbrtRNctqcBX7l8zylwGsAU5552-gSTEAN7HWCZPWiPCMElPIJkJwLISj1x4FhZGcuiXh1qACP2SDVAX5TtlbxvhwbTo6Xm0O5dHpfQvCFuEjy_5hZ8UN2uiU0neWJjk1CcC7a3XumjOw1_citfSEqQXnyhWMKjcPRcTjPB1TiACGp1X7UH_9xA",
+      alt:
+        "Amul EPIC Choco Truffle ice cream bar dripping with molten cocoa truffle fudge and thick milk chocolate layer",
+      name: "Choco Truffle",
+      description:
+        "Intense chocolate ganache core enrobed in decadent milk chocolate for serious cocoa lovers.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20EPIC%20Choco%20Truffle.",
+      enquire: true,
+    },
+    {
+      id: "epic-sweet-heart",
+      badge: "Special Edition",
+      badgeColor: "bg-secondary text-on-secondary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD-kW8WQA8FnaaAHiAMnDlAsyX_wqF8js-x81eDRs6iGSMYRbR_2qTlmciAfUKstIkacJ16d09dK9eTrReeeINK5pDJtR0hlin8jAPwqI4B4hO-IsMEQil6VY4TuVbJvrxQ-o4RBF0CRgZ74u1jLcgYCuqFjiZjd_ip1P8mLz0UWI1Ddi9TDrtDcRnEl1rziOJLxnROqKlMApsFABb6lfZMeEFjuoVBs1RuMJavDNCfSToNvRJsbuJ6-A",
+      alt:
+        "Amul Sweet Heart heart shaped premium ice cream treat with raspberry syrup and creamy white and dark chocolate finish",
+      name: "Sweet Heart",
+      description:
+        "Signature heart-shaped frozen indulgence bursting with sweet vanilla cream and chocolate notes.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Sweet%20Heart.",
+      enquire: true,
+    },
+  ],
+  tubs: [
+    {
+      id: "tub-choco-crackle",
+      badge: "1-Litre Tub",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAsFbqTm9mIFcF77GTQJLvYQQzMd_SrjK9Y0M-RtVL1M0ruVMkTwWM18t3XzFMOsmyYKd2TA7SKK7rzPcaecA-tAhYXUsgeqK6oVBltGmNBSOJ48MtHh7a9g3OIQ-0c8ORfke6y_jK1a5jn1bXVRQ_-eDZmpFs86fY4Psd-ilcoyzEnaVog1K3tRTllPayB0ZAUrs_GfIRPdSOhMxDK7WxwDiMRR3bQII0ybiQRDQrVjOujbF6laOKK6Q",
+      alt:
+        "Amul 1 Litre Choco Crackle Ice Cream tub showing rich chocolate ice cream scoop with crunchy chocolate biscuit pieces",
+      name: "Choco Crackle",
+      description:
+        "Loaded with crispy chocolate crackles inside smooth cocoa dairy ice cream.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Choco%20Crackle%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-shahi-kulfi",
+      badge: "Royal Heritage",
+      badgeColor: "text-secondary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD9AbQpeMEc2HpqV86I1qNNWoGy72A5infbEGG4ltHBMjdxeo40kkEJIUvsBcqRNOS7g4M-5kT3pd9soPkfLzM1e6hTjPXj-dGQo6YiGbXTpWDV1ibZVf73FyOXfzis-CT0ydSLK562Nt_ke3hvS0X25Eilu0m4s834g3iiVvOobU7jRgHnfXmg3wrqtg4KTLEAKq3wdnbK3CL3saAszIp3v5P_MQnpKtWH-fwbe-tWMBIMjLHCQV_M0Q",
+      alt:
+        "Amul 1 Litre Shahi Kulfi Ice Cream tub with saffron cardamom infused rabri scoops and chopped pistachios",
+      name: "Shahi Kulfi",
+      description:
+        "Traditional royal recipe made with slow-simmered rabri, green cardamom, and pistachios.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Shahi%20Kulfi%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-rajbhog",
+      badge: "Festive Classic",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuC_a6-FTLSH4cnQNx8IZbuPkF_Ir6wM1NmyxQfIJv7YnxNOOFEzJdNMvIjjH6eiazuVHl95xMYcw8uMCA9CzsTzCe9nbjoCdvzHAH4FAQdid-Aq5865Yq7OzdIGWS0ZH8ZiChxlJIoBi2uRlJ1lPuhzED_GcaQYAoGXg1mMhTht64GJd8fx1phHaZy3qkANnTWH9cjXoMIuXvuWv7UUr39fBkjpPAmzGc38hQs2rXjgxDZBRb1PKe6Lcg",
+      alt:
+        "Amul 1 Litre Rajbhog Ice Cream tub with golden saffron ice cream and whole cashew and almond nuts",
+      name: "Rajbhog",
+      description:
+        "Enriched with fragrant saffron, real honey, and generous dry fruit slivers.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Rajbhog%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-pan-nawabi",
+      badge: "Digestive Delight",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAydH7e7TdyzuDDJ6jnnMTLzoTQrv0enq6ep2DsOIN1WLiPqoerdcgmnW92A_y0gF5CPYSgBazt0SCbkSFHXSIO5TIf1jsTaBHazt01qTCsfq_r9KV6BnOpk1x08rmi7i0ReKgCKI9EgL1oQ6kTeJwlvHvTOdEMhxH0WKZcGET1CUnP9nbpgdQ71VjIdfxFQm3fgC81xFW7sRj6HMiZhMruFv8TAJoZ4yCYtYQeP7O0u_YTiBwDbZqU9w",
+      alt:
+        "Amul 1 Litre Pan Nawabi Ice Cream tub with refreshing gulkand betel leaf flavour and dry fruits",
+      name: "Pan Nawabi",
+      description:
+        "Authentic Meetha Paan essence infused with fragrant gulkand and fennel notes.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Pan%20Nawabi%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-falooda",
+      badge: "Rose Special",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDyZgFyJwlJtBWrZwZqYUWE-9OB5pvVMthwzWJ6s6qVjqtaxFWsnPglKogAgpXZkXxx1iJqaePyz0SudEfgTJ8vSNPu2lRdXqH54Emb7BAE3eCYk09hBxfKVFIDKYL9aRvohB27VLrR5BNK4ZaaMFI_3quI3-RGoSfJhAI6tysaE1Lk_UvdZfLE2EN6IRgeMGThKEpygUdW8MKxqSm5myuq3wJkc0Q-Wud2XxDu2dw6M7GXN4WoJMmsiw",
+      alt:
+        "Amul 1 Litre Falooda ice cream tub with rose flavour basil seeds and vermicelli swirls",
+      name: "Falooda",
+      description:
+        "Aromatic rose milk swirl with authentic falooda bits and sabja seeds.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Falooda%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-roasted-almond",
+      badge: "Nutty Crunch",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCTFIxYgWB__5Fmy865v_n7GpH6_2ht2OcAVDmI3bJvTBviaCGjs5u_NShUEixjTay-buL5h1XZNPuruurMJQn7cqfl12k_SqRp2wv-0pOq-IOA7c1nXwMHTIDc-W3SicaZmosI_GYCA7MrRCHokDZdhYzit7bOvxBxkicIdE05ItCnlVxbv_jeY7YCT0mlUQm24PmOi5vPppr1fkle5PLQI1UWekDsBB86fFNIKBe93inANrTfsg_Mnw",
+      alt:
+        "Amul 1 Litre Roasted Almond Ice cream tub showing nutty butter cream base and golden toasted almond nuts",
+      name: "Roasted Almond",
+      description:
+        "Slow roasted California badam flakes churned in pure cream dairy ice cream.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Roasted%20Almond%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-butterscotch",
+      badge: "All Time Favourite",
+      badgeColor: "text-secondary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD4EVIZmOFk1CrQF7600RroKDiLZad-iO1dyx-F3lA5OKRub_PP5kXvEhaQz3ziki-efeWtBQsQcMFtREd4cOvLz43-FU2E1vbC685yUNJHH2AfHFgfdEOjTplc2nhwfyeQZmntg1GDTHrmbywvEC9iLPn0BGM1SGJK3_BIm2CffJiDOwg4Hh0-qdRJeFiFFDreKg2dfMmnANXnxtw9Vi88iCOySUUYSMAm86EKfnJB3BOQl-YSiVU7zg",
+      alt:
+        "Amul 1 Litre Butterscotch Ice Cream tub with golden caramelized praline nougat chunks and rich yellow cream",
+      name: "Butterscotch",
+      description:
+        "Caramelized buttery sweetness with an abundant dose of crunchy praline bits.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Butterscotch%201L.",
+      enquire: false,
+    },
+    {
+      id: "tub-vanilla",
+      badge: "Pure Real Milk",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDyL7XMPSCANJqUGM1BSexrmpaIAsYgHOhQz8YvimEW_QePwWWdgoR0S0CAp__XyAcKzoLM3yBCy4z2UVvQGq6F0EKRp5Rrk4LZALKZw3jKMmzDVNE8J22TH0wv5V4rpwfd5KJFWSn82CtZyCIxUDi-rJ4fyL7qUXVtwVQlHRIGPkDs9Zxv9K8Bw-xxE10ucovrT_TUq9xhfaDp1GIBckYO40RPdi07qEmY6hWFOUmygpbwz32GPIW08g",
+      alt:
+        "Amul 1 Litre Real Milk Vanilla Ice Cream tub showing immaculate velvety white scoops on warm butter wood background",
+      name: "Vanilla",
+      description:
+        "The timeless classic made with 100% genuine Amul dairy cream and pure vanilla.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20please%20check%20availability%20for%20Amul%20Vanilla%201L.",
+      enquire: false,
+    },
+  ],
+  chocolates: [
+    {
+      id: "choc-milk-chocolate",
+      badge: "Smooth Classic",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCBPinULGJCukg4F9g_LvsaxzRv2VhxGDtuXBBhHw-CXMMs5OsfR6oC9HHjy6Gqi3q1ZULyScdsalZdCG35Gn0DpduNaiH5YaErBix8kc7Fk9vvf7YZCZaE8ko1j8DypITNAM3zUokJ3ED6uLu27W2l6_-YjpWIag6RKuw5VOkxFP-e7BWw3oNNNienz-Ld8t_up0nw7CrAqQmLGL20WH1SrPUpD20YJByNvhwtwrZJUgv8b--qFMZZkg",
+      alt:
+        "Amul Milk Chocolate bar slab broken to show smooth creamy cocoa texture against cocoa beans",
+      name: "Milk Chocolate",
+      description:
+        "Creamy milk chocolate prepared with finest grade cocoa butter and whole milk.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Milk%20Chocolate.",
+      enquire: true,
+    },
+    {
+      id: "choc-white-lemon",
+      badge: "Citrus Fusion",
+      badgeColor: "text-secondary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuABmKgYeAnI2rOCriq7hIaX_hVdcdjSF9z2wj16GV71FoXtHEhD7vLWxEhX75X6P0z_mqAbdgVB0CIYvPNA3PCwSAaUyoEjnk1Eu4ludV9xwXy4u3Rwa3LXvxgqYkr_B0X4GcBktHohGg2U0GemtPogXPsYzfxaXQeHihggQygopSeSQnWLx-Lvf_XxCkKGYYMchv0ujATykZps8PywLc4Qq6_vlMlctRpogi16YMhc-iri-YCW_4QV_Q",
+      alt:
+        "Amul White Lemon chocolate bar packaging with refreshing citrus zest and rich white cocoa butter chunks",
+      name: "White Lemon",
+      description:
+        "Velvety white chocolate infused with subtle natural lemon notes for an exotic tang.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20White%20Lemon%20chocolate.",
+      enquire: true,
+    },
+    {
+      id: "choc-mystic-mocha",
+      badge: "Coffee Infusion",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDNFmCKGihwqAWUThs85pbYysu5icKJ7DDN7J3vdZ4NI6XlgTkgZvVDtegNmNu8q5Cqgaod4mKFg1xRjV2pROlCiSS-lI08FmtVcRxcjkZ6_m6YasAtBAYFhP_XFQRqq5tZuWzr9981PUPXN6WgHgMNGEWacfH-G8TeEgn_xkLpjdbbBhWeouySDI4kN_ejuGF0r7mvSPTH7EjpKFu5qFyeqwoJa5Vqnki9wMZUHCj1_sBuz64YTP8O7g",
+      alt:
+        "Amul Mystic Mocha chocolate bar with dark roasted espresso coffee aroma and rich dark chocolate bars",
+      name: "Mystic Mocha",
+      description:
+        "A harmony of dark chocolate and aromatic roasted coffee beans for coffee aficionados.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Mystic%20Mocha%20chocolate.",
+      enquire: true,
+    },
+    {
+      id: "choc-bitter-90",
+      badge: "Intense 90% Cocoa",
+      badgeColor: "text-primary",
+      image:
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBwUYAyP-SSrrSeLzQrdbsiqXoShAHs9ojFiWT40By0wvv6yo9ZVhHGXEMjVqR9TGGKIp1qwAnDiRd7ep2m8AAznfzRV1w19ouhj-pwns3SQjR4lc81EKvwEYJBmppDRIM8M_DMYB10feIB-EpYgduE-jC3jq7IREcziIjlFHUbvN4NxkiCNIhoOHY7I6cq0LMvHFwRZbO0_vXhfJVFDK6quwWQ7l0w5UvuEhNNtpSwwjzjqx4p2elqtA",
+      alt:
+        "Amul Bitter 90 percent dark chocolate bar showing deep dark cocoa sheen on raw rustic slate platter",
+      name: "Bitter 90%",
+      description:
+        "Single-origin style uncompromising dark chocolate crafted for true dark chocolate purists.",
+      whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Bitter%2090%25%20chocolate.",
+      enquire: true,
+    },
+  ],
+}
+
+export const HAMPER_SPOTLIGHT = {
+  id: "write-bite-bouquet",
+  badge: "Signature Creation",
+  badgeIcon: "star",
+  badgeColor: "bg-secondary text-on-secondary",
+  image:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuAmlVJYD4N1hhVZTRt1wJQ4P9ayDFZXGNNfF3mhsE1TiMZ30I5DXeRVWUAAceVKa1rPHxe-aamHLNSMfiLAeIhCcTvn0JvbGZp0ydGNHlJ9VlRmaVtuyffPjlcx-viRy-hioISBGZQXOjSt8uukYA-NwIMvY5WbeX26pY8yEDmbMtojfzIkqIiQA_a1hsmJcxeVQQwCE0AOxMyNXWrnaRSLvgHXDK0CldyAHIbHp51HdEW_OKJ-eMyoEQ",
+  alt:
+    "Handmade Write and Bite sweet bouquet created by SDK Enterprise with vibrant craft pencil, layered coconut burfi, crunchy peanut chikki blocks wrapped with golden ribbons on vintage wooden table",
+  title: "Write & Bite Sweet Bouquet",
+  description:
+    "Our most beloved novelty gift! Combines decorative keepsake pencils with traditional Arcot Mani Mark delicacies including fresh coconut burfi, crunchy peanut chikki, and fine burfi tied with artisanal ribbons.",
+  features: [
+    "Artisan Keepsake Pencil Included",
+    "Pure Jaggery & Coconut Burfi",
+    "Perfect for Birthdays & School Milestones",
+  ],
+  whatsappText: "Hello%20SDK%20Enterprise,%20I%20am%20interested%20in%20ordering%20the%20Write%20%26%20Bite%20Sweet%20Bouquet.",
+}
+
+export const HAMPER_SIDE_CARDS = [
+  {
+    id: "healthy-burfi",
+    title: "Healthy Burfi Bouquet",
+    description:
+      "Nutrient-rich peanut, fresh coconut, roasted millet burfis, and heritage Kamarkat.",
+    image:
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuC2ER7PKQBFib6Sd3Il7OTq5GMY3KyzEu5udKRPmWnGcbYdcXEzPahvoD2OyykzwwZY-O6x5BgHUPBzBjVlonHv_doGO88NlbN_m-shn7jpv6fVHipezI7GH1NPWh1dagVuLuz66s3PAB8wtryv12kAkB6jLGtBW0-qjkZr8vr2aYsBoOEwSM1tBn9m250zhq4lV-IroZ3mjHf6lRpZS7M31xNWHwwSggKyv_UuJSq-i4M8bJp98Wavug",
+    alt:
+      "Assorted South Indian burfi bouquet with millet burfi peanut chikki and traditional Kamarkat sweets",
+    whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20the%20Healthy%20Burfi%20Bouquet.",
+  },
+  {
+    id: "premium-snack",
+    title: "Premium Snack Hampers",
+    description:
+      "Authentic Arcot Mani Mark crunchy namkeen, savory bites, and festive treats in gift baskets.",
+    image:
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBrcUh4N3GDIr7regO7bLUHDbHQ0xnoMeyYMOA7W2YG51V6u_diorpFjp5aL8Q4h-J7pz4mmPhOqkA6yXIpBIfb9u9hnH2D9gN-yf4tuyb2fzmHz8Dhg4Vm5kiX8AnoEylJArqOtJYg3fXprvBDqsIGnovOsK7WuSb6U1m2if_d78FDxWZ64vTB7sKzUnKevHzGNPUmy0QZcEgv0DRAlfZjfZu8SI16XBjig9rxoXTLXQZnPs1Z3KFEUg",
+    alt:
+      "Traditional Arcot Mani Mark snack hamper basket packed with murukku packets thattai and savoury mixture",
+    whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Premium%20Snack%20Hampers.",
+  },
+  {
+    id: "chocolate-gift",
+    title: "Chocolate Gift Boxes",
+    description:
+      "Curated Amul premium chocolate bars and artisan assortments packed in royal blue gift boxes.",
+    image:
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBgnjzEbPR4RLHay5G6-cWFfmgTquND8rK5zvBbXP8LxtoOXoxHR4EEU8n0Aq1pCAc4056aYMYVoCEelP0QlmBoqLfH6_Z9r_l3BQwc9emRbMUcrQk5mmv2Ff6vILJDoE4fpE-wWrK7aczVgVL6olVP2m_V1LjZpQ4sL5xmretdrh11i8OuUPWc-2NzOaOd_b6Xe9NKK4zckRIy0Ho3fGwu4WvmY7SB85eaAVKcZENMDKVdxQ8BdoUXtw",
+    alt:
+      "Deluxe Amul chocolate gift box featuring an array of single origin dark chocolates and cocoa bars wrapped in gold",
+    whatsappText: "Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20Amul%20Chocolate%20Gift%20Boxes.",
+  },
+]
+
+export const GALLERY_TILES = [
+  { id: "murukku", label: "Crispy Mani Mark Murukku", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDyDAxqT1C39m1ct6AUlowI2PvdUJpDyen60GBfe1KRY_FrARrFpSZJcnhK3CmC4ZQADuQWPTIjZmMxa3J5XXyY0aF8rZKitVTFxK5QfpbIeJLEIXsksp2__WBxUO7RvXb6RI_S2K9uDaYEaljJ1CGOk-7im0P1hXO-UjjT9Nta1sLnovq0-FIiFvkFb74ywvUCZPdslV7exGBh6pOwg_HetlTml99ADAstO1HmO-NR1WbY1riHUIglpw", alt: "Close up photograph of traditional South Indian Murukku crisps stacked in artisan brass bowl" },
+  { id: "chilled", label: "Chilled Dairy Parlour", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCAMUFq7mJ2-ejZ0eAw35LmAUHaGDQc48Jpq2Qesu74_SnIupoqcAuWrK3fB6n-RrdaHOSZPnI91ug6ZZ80DXY_yEjwcGkqej4NQoHJJ-l6CLcdiwGAariZHV_B8tvV8cas5QlnrDnHYQn55w6ruo5jLZ2-6gcm22lyZcEkwJLIP6ykrncHnKvEWPTlG8pQRdt-BUuxr30_jACv9h5t3JdcSrA1iAl70oaLJXWFZ5f47CVJft-AGVE5UA", alt: "Amul 1 Litre Ice cream containers stacked neatly in refrigerated store showcase at SDK Enterprise" },
+  { id: "write-bite", label: "Write & Bite Bouquets", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCnoytaTjZjR32K_VkezALWbd8sogAigyAqfNh0VKU1IhXzZwyqdANPqEjNMuKVrSOWX2314tOQJ7g663HLZDOBjc3tzmMqLy7-masF-QQavurdMeFLusNXZ6zgkf4awrfFpGvefqfSIH6g7bflD4EXVt5DjgFC-3K2VM_hrqh7I3RlJ5p5IIL7lN1YPxpytV-BBjNyxBj6CkqyjSmpHzyvuubt9vAtoCywZ4asjvafm0OZiP0L7JJwAw", alt: "Handcrafted festive sweet bouquet with keepsake pencil and peanut chikki wrapped in designer paper" },
+  { id: "dark-chocs", label: "Amul Dark Chocolates", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBtts_QJeuMUOIBsaZTWvPzeviXaalSEjP51ujgdp45U1kysGiDtxu2FDbupxLY81mpsEZxaq1UjbsnHxnE0mf_PWClUWUwAfpEBvR25t1AmogSx0oO2YxUxn68E8Wtur2GhQf16Sed8MRdXjlUqZ8BgGMEmFGZSlzeujIyIUywOYPOwiwbyPd254fTs-1F2d9yfG0eSBmLnW9cBflDKahRgRBY6RYWt9fK6YIp5SMZXIMcjQpkYw0GQQ", alt: "Selection of Amul premium dark chocolates displayed elegantly in silk gift tray with nuts" },
+  { id: "ghee-sweets", label: "Arcot Pure Ghee Sweets", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAtKgPYnnMo1Pi7PjfgHXUOSAVm-_F6PjqL-sZeNMITPAwj7H2wLVc2Mzzx0JGkp3Zom61NZI2RAubFPZam6CB5lwG87JTZ6I61BRtUFD4Wv2xDZojqj-EzYKivXF36lREUW9AJixNX6JOf95AnP8LtqZf3Ea_fSANqcgXPIVU7ZabscWZYi5neYax_STMXMbRcETj7R40xD02aW_stVnw2GKRImqdeJDwbjn-E1imGHA3Z5XLl-RL2cw", alt: "Traditional Arcot Peda sweets made with pure ghee on decorative silver plate with saffron" },
+  { id: "celebration-gifts", label: "Custom Celebration Gifts", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCWBd7rLIO-iYDbdrSVNZe0iYtgdM3TkNenUuLRKjq8RTp5g4oKeT937KWiguEDFvYr-GI_9IXztor-Az3g5SM5XoDU6qsTPY_BGx7eqLStOpkUi99WwOaDy0MwnM1_g_CmkkRBTZYu5Zw5j--MurUFKrf4tW-G9CFJJIvHBZKTUNyf2aMscL6oBKr-XxDPT7OSo5USIaBmSo2s1LzjFzs90jlWcTDN_NSdnFhT6zd7Zk30DmsvE4jFg", alt: "Deluxe celebratory gift hamper basket tied with royal blue and golden ribbon bows ready for delivery" },
+]
+
+export const ABOUT_FEATURES = [
+  {
+    icon: "verified",
+    iconBg: "bg-primary/10 text-primary",
+    title: "Amul Parlour Quality",
+    description: "Certified cold-chain storage for pure dairy purity and fresh taste.",
+  },
+  {
+    icon: "bakery_dining",
+    iconBg: "bg-secondary/10 text-secondary",
+    title: "Arcot Mani Mark Tradition",
+    description: "Authentic traditional recipes, pure ghee sweets, and crunchy namkeens.",
+  },
+  {
+    icon: "featured_seasonal_and_gifts",
+    iconBg: "bg-secondary-container/20 text-secondary",
+    title: "Heartcrafted Gifting",
+    description: "Signature Write & Bite and custom burfi bouquets for any event.",
+  },
+  {
+    icon: "storefront",
+    iconBg: "bg-primary-container/20 text-primary",
+    title: "Lawspet Convenience",
+    description: "Quick local pickup and smooth WhatsApp ordering direct in Puducherry.",
+  },
+]
+
+export const CONTACT_CARDS = [
+  {
+    icon: "call",
+    iconBg: "bg-primary text-on-primary",
+    label: "Call Us Directly",
+    value: "78711 10615",
+    link: "tel:7871110615",
+    valueColor: "text-primary",
+  },
+  {
+    icon: "chat",
+    iconBg: "bg-secondary-container text-on-surface",
+    label: "Instant WhatsApp Enquiry",
+    value: "Chat with SDK Enterprise",
+    link: "https://wa.me/917871110615?text=Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20your%20products.",
+    valueColor: "text-secondary",
+  },
+  {
+    icon: "location_on",
+    iconBg: "bg-surface-container-highest text-on-surface",
+    label: "Store Location",
+    value: "Lawspet, Puducherry, India",
+    link: null,
+    valueColor: "text-on-surface",
+  },
+  {
+    icon: "photo_camera",
+    iconBg: "bg-surface-container-highest text-on-surface",
+    label: "Official Instagram",
+    value: "@sdk_arcotmanimark_amul_py",
+    link: "https://www.instagram.com/sdk_arcotmanimark_amul_py/",
+    valueColor: "text-primary",
+  },
+]
+
+export const NAV_LINKS = [
+  { label: "Home", href: "#hero" },
+  { label: "Products", href: "#categories" },
+  { label: "Amul Favourites", href: "#amul-collection" },
+  { label: "Gift Hampers", href: "#hampers" },
+  { label: "Gallery", href: "#gallery" },
+  { label: "About Us", href: "#about" },
+  { label: "Contact", href: "#contact" },
+]
+
+export const FOOTER_CATEGORIES = [
+  { label: "Amul Ice Creams & Dairy", href: "#categories" },
+  { label: "Arcot Mani Mark Sweets", href: "#categories" },
+  { label: "Traditional Murukku & Savouries", href: "#categories" },
+  { label: "Festival & Wedding Hampers", href: "#hampers" },
+  { label: "Gourmet Chocolates & Beverages", href: "#amul-collection" },
+]

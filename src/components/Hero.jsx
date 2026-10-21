@@ -1,0 +1,66 @@
+﻿import { BRAND, HERO_BADGES, HERO_FLOAT_BADGES } from "../data/products"
+
+function Hero() {
+  return (
+    <section className="relative w-full overflow-hidden bg-surface py-space-xl lg:py-24" id="hero">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+          <div className="lg:col-span-6 flex flex-col gap-space-md z-10">
+            <div className="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-high w-fit shadow-sm">
+              <span className="material-symbols-outlined text-secondary text-[16px]">verified</span>
+              <span className="font-label-md text-label-md text-on-surface">{BRAND.tagline}</span>
+            </div>
+            <h1 className="font-display-lg text-display-lg text-primary tracking-tight">
+              Your Everyday Favourites, <span className="text-secondary">All in One Place.</span>
+            </h1>
+            <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+              Discover Amul dairy delights, delicious Mani Mark snacks, premium chocolates, and thoughtful gift hampers
+              at SDK Enterprise. Good Taste. Thoughtful Gifts. Happy Moments.
+            </p>
+            <div className="flex flex-wrap items-center gap-space-md pt-space-sm">
+              <a
+                className="px-space-xl py-space-md rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary transition-all flex items-center gap-space-xs"
+                href="#categories"
+              >
+                <span>Explore Products</span>
+                <span className="material-symbols-outlined text-[18px]">arrow_downward</span>
+              </a>
+              <a
+                className="px-space-xl py-space-md rounded-full bg-secondary-container text-on-surface font-label-lg text-label-lg shadow-md hover:bg-secondary hover:text-on-secondary transition-all flex items-center gap-space-xs"
+                href="https://wa.me/917871110615?text=Hello%20SDK%20Enterprise,%20I%20would%20like%20to%20enquire%20about%20your%20products."
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span className="material-symbols-outlined text-[18px]">chat</span>
+                <span>Order on WhatsApp</span>
+              </a>
+            </div>
+            <div className="grid grid-cols-3 gap-space-sm pt-space-lg">
+              {HERO_BADGES.map((badge) => (
+                <div key={badge.label} className="p-space-sm rounded-xl bg-surface-container-low flex items-center gap-space-xs shadow-sm">
+                  <span className={`material-symbols-outlined ${badge.color} text-[20px]`}>{badge.icon}</span>
+                  <span className="font-label-sm text-label-sm text-on-surface">{badge.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="lg:col-span-6 relative">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-surface-container">
+              <img
+                className="block w-full h-auto object-contain rounded-2xl"
+                src={BRAND.heroImage}
+                alt="Lavish display of Amul ice cream family tubs, Amul Epic bars, gourmet artisan chocolate packs, and authentic Arcot Mani Mark South Indian sweets arranged festively with marigold garlands in Lawspet Puducherry parlour"
+              />
+</div>
+</div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Hero
+
+
+
